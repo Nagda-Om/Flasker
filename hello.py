@@ -36,7 +36,7 @@ striptags
 def page_not_found(e):
     return render_template('404.html'), 404
 
-# Internal Server Error 504
+# Internal Server Error 504 thing
 @app.errorhandler(500)
 def page_not_found(e):
     return render_template('504.html'), 500
